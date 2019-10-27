@@ -31,9 +31,6 @@ cross vaidation is used to create training and testing samples - to split the da
 Why train and test on separate data:
 if you train a classifier to predict based on the same data that you test against, when you do test it, the program will have seen the data already and so knows what the answer is. 
 
-What we see when running the algorithms:
-svm gives an accuracy of 0.175 between the test data and the trained data.
-Whereas linear regression gives a higher accuracy of 0.243.
 To obtain the variance score of the
 model, the score() function is used which is te accuracy in my code. 
 
